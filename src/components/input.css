@@ -1,0 +1,43 @@
+input{
+    width: 250px;
+    text-align: center;
+    height: 40px;
+    border-radius: 15px;
+    background-color:#101421 ;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(194, 186, 186);
+
+}
+.input-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-container{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #1A2037;
+    border-radius: 30px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.button-container{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-container i{
+    color: white;
+}
+.button-container:hover{
+    background-color:#101402 ;
+}
