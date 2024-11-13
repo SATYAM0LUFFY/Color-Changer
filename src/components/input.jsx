@@ -6,7 +6,7 @@ const Input = ({color , setColor}) => {
   
     function  onchangeHandler(event) {
         if (event.target.value.length >6){
-            alert("ENTER VALID COLOR")
+            alert("ENTER VALID HEXCODE")
         }
         setColor(`#${event.target.value}`);
 
@@ -15,7 +15,7 @@ const Input = ({color , setColor}) => {
   return (
     <div className='input-div'>
         <div className="input-container">
-        <input type="text"   onChange={onchangeHandler} placeholder='Enter Your clour here' />
+        <input type="text"   onChange={onchangeHandler} placeholder='Enter Your clour hexcode here' />
         
         </div>
     </div>
